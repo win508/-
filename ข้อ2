@@ -1,0 +1,4 @@
+n = int(input ("ระบุเลขที่1"))
+m = int(input ("ระบุเลขที่2"))
+print (n-m)
+    
