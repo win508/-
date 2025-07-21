@@ -1,0 +1,5 @@
+a = int(input ("ระบุเลขที่1"))
+b = int(input ("ระบุเลขที่2"))
+a,b=b,a
+print(a)
+print(b)
