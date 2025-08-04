@@ -1,0 +1,5 @@
+def find_averrage(n1, n2, n3):
+    avg = (n1**2 + n2**2 + n3**2)
+    return avg
+result = find_averrage(50,500,5000)
+print(result)
