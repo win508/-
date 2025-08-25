@@ -1,0 +1,15 @@
+import tkinter
+root = tkinter.Tk()
+root.minsize(400,300)
+
+root.title("Afterr Loop")
+label = tkinter.Label(text="รอ 10 วินาที",front=('Arilal',10,'bold'))
+label.pack(expand=True)
+
+def my_function(new_text):
+    label.config(text=new_text)
+
+
+root.after (300 , my_function,"ธนวินท์ ปัถวี วิน ม.5/8 แผนวิทย์ขคณิต คณะวิศวกรรมศาสตร์")
+
+root.mainloop()
