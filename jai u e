@@ -1,0 +1,13 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("that ayaka simp")
+
+mylabel = tk.Label(text="aho new world", fg="black", font="96").pack()
+
+def showMessage():
+    tk.Label(text="ชื่อ: ธนวินท์ ปัถวี\nชั้น: ม.5/8\n เลขที่: 1", fg="red", font="48").pack()
+    
+btn1 = tk.Button(root, text="Press Me!", command=showMessage).pack()
+
+root.geometry("469x469")
+root.mainloop()
