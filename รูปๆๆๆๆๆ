@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 33.33%;
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 50%;
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/800/600">
+        <img src="https://picsum.photos/id/1024/800/600">
+        <img src="https://picsum.photos/id/1033/800/600">
+        <img src="https://picsum.photos/id/1042/800/600">
+        <img src="https://picsum.photos/id/1050/800/600">
+        <img src="https://picsum.photos/id/1067/800/600">
+    </div>
+</body>
+</html>
